@@ -70,37 +70,66 @@ width: 240px;
     border-radius: 9999px!important;
     background-color: green!important;
 }
-@media (max-width: 550px) {
+::-webkit-scrollbar {
+    width: 12px; 
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255 111 88); 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: red; 
+  }
+@media (max-width: 685px) {
     .content-section {
         padding: 22px 13px; 
     }
-
     .general-input-field,
     .general-select-field,
     .text-area {
         width: 100%;  
     }
-
+    .fa-font-size{
+        font-size: 18px;
+    }
     .flex {
         flex-direction: column; 
         gap: 20px; 
     }
-
     .navbar {
         flex-direction: row; 
-        
+        font-size: 12px;
+        align-items: center;
     }
-    .fa-bell{
+
+    .back-icon fa-sharp fa-solid fa-arrow-left{
         font-size: 18px;
     }
     .green-rounded-ball{
-        width: 10px!important;
-        height: 10px!important;
+        width: 9px!important;
+        height: 9px!important;
         border: 2px rgb(255 111 88);
         border-radius: 9999px!important;
         background-color: green!important;
     }
     
 }
+@media(max-width:315px){
+    .navbar {
+        flex-direction: row; 
+        font-size: 8px;
+        align-items: center; 
+        padding: 8px;
+}
+.heading{
+    font-size: 11px;
+}
 
+.label-space{
+    font-size: 10px;
+}
 
+}
