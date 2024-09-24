@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <i class="back-icon fa-sharp fa-solid fa-arrow-left"> back</i>
+
+        <h2> create compaign</h2>
+        <div >
+           <div style="position: relative;"> <i class=" fa-solid fa-bell "></i> 
+            <div class="green-rounded-ball " style="position: absolute ; top:0; right: 0;"></div>
+        </div>
+          
+
+        </div>
+        
+        <!-- <img style="height: 30px;" src="./static/notification.png"></img> -->
+    </div>
+    <div class="hero-section">
+        <div class="content-section">
+            <div class="heading">
+                <h1>General Information</h1>
+            </div>
+            <div class="flex">
+                <div>
+                <p class="label-space">Compaign name</p>
+                <input type="text" class="general-input-field" name="fname" placeholder="Company name here">
+            </div>
+            <div>
+            <p class="label-space">Add Campaign Name</p>
+            <div class="image-area">
+                <input type="file" name="file" id="file" class="inputfile" accept="image/*" style="display: none;" />
+                <label for="file" style="cursor: pointer;">+</label>
+            </div>
+        </div>
+        </div>
+            <div class="flex">
+                <div>
+                <p class="label-space">Brand name</p>
+                <input type="text" class="general-input-field" name="fname" placeholder="Brand name here">
+                </div>
+                <div>
+                <p class="label-space">Total budget</p>   
+                <input type="text" class="general-input-field" name="email" placeholder="Compaign budget">
+                </div>
+            </div>
+                <div class="flex">
+                    <div>
+                        <p class="label-space">Campaign Objective</p>
+                        <select class="general-select-field" name="position">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="Brand Awareness">Brand Awareness</option>
+                            <option value="Pen">Pen</option>
+                            <option value="Pencil">Laptop</option>
+                            <option value="Paper">Charger</option>
+                        </select>
+                    </div>
+                   <div>
+                    <p class="label-space">Campaign Discovery</p>
+                    <select class="general-select-field" name="position">
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="Pen">Pen</option>
+                        <option value="Pencil">Laptop</option>
+                        <option value="Paper">Charger</option>
+                    </select>
+                </div>
+                
+                </div> 
+                <div class="flex">
+                    <div>
+    <p class="label-space">Compensation Type</p>
+    <select class="general-select-field" name="position">
+        <option value="" disabled selected>Select an option</option>
+        <option value="Pen">Pen</option>
+        <option value="Pencil">Laptop</option>
+        <option value="Paper">Charger</option>
+    </select>
+</div>
+                   <div>
+                    <p class="label-space">Gift Value</p>
+                   <input type="text" class="general-input-field" name="email"  placeholder="Enter Value of the gift">
+                  </div>
+                </div>
+                <div>
+                    <p class="label-space">Gift Detail</p>
+                    <textarea class="text-area" name="position" placeholder="Gifted" rows="3" cols="50"></textarea>
+                </div>      
+                <div>
+                    <p class="label-space">Compaign Summary</p>
+                    <textarea class="text-area" name="position" placeholder="Gifted" rows="3" cols="50"></textarea>
+                </div>           
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
